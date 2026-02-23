@@ -33,7 +33,7 @@ public class JoJosGresService {
                     url, HttpMethod.POST, request, Saga.class);
             return response.getBody();
         } catch (HttpClientErrorException e) {
-            System.err.println("ERROR AL CREAR SAGA EN JOJOSGRES: " + e.getMessage());
+            System.err.println("Error al crear la saga (JOJOSGRES): " + e.getMessage());
             return null;
         }
     }
@@ -45,7 +45,7 @@ public class JoJosGresService {
                     url, HttpMethod.GET, null, Saga.class);
             return response.getBody();
         } catch (HttpClientErrorException e) {
-            System.err.println("ERROR AL OBTENER SAGA POR ID: " + e.getMessage());
+            System.err.println("Error al obtener la saga por ID (JOJOSGRES): " + e.getMessage());
             return null;
         }
     }
@@ -58,7 +58,7 @@ public class JoJosGresService {
                     new ParameterizedTypeReference<List<Saga>>() {});
             return response.getBody() != null ? response.getBody() : Collections.emptyList();
         } catch (HttpClientErrorException e) {
-            System.err.println("ERROR AL OBTENER SAGA POR TITULO: " + e.getMessage());
+            System.err.println("Error al obtener la saga por título (JOJOSGRES): " + e.getMessage());
             return Collections.emptyList();
         }
     }
@@ -71,7 +71,7 @@ public class JoJosGresService {
                     new ParameterizedTypeReference<List<Saga>>() {});
             return response.getBody();
         } catch (HttpClientErrorException e) {
-            System.err.println("EERRROR AL OBTENER TODAS LAS SAGAS: " + e.getMessage());
+            System.err.println("Error al obtener todas las sagas (JOJOSGRES): " + e.getMessage());
             return null;
         }
     }
@@ -81,7 +81,7 @@ public class JoJosGresService {
             String url = baseUrl + SAGAS_PATH + "/" + id;
             restTemplate.delete(url);
         } catch (HttpClientErrorException e) {
-            System.err.println("ERROR AL BORRAR SAGA: " + e.getMessage());
+            System.err.println("Error al borrar la saga (JOJOSGRES): " + e.getMessage());
         }
     }
 }

@@ -43,14 +43,14 @@ public class Secuencia {
         if (sagaId2 != null) {
             mongonatorService.guardarSaga(sagaId2);
         } else {
-            System.out.println("SAGA CON ID 2 NO ENCONTRADA");
+            System.out.println("Saga con ID = 2 no encontrada");
         }
 
         List<Saga> resultados = jojosGresService.getSagaByTitulo("Stardust Crusaders");
         if (!resultados.isEmpty()) {
             mongonatorService.guardarSaga(resultados.get(0));
         } else {
-            System.out.println("SAGA STARDUST NO ENCONTRADA");
+            System.out.println("Saga Stardust no econtrada");
         }
 
         List<Saga> todasAsSagas = jojosGresService.getAllSagas();
@@ -70,12 +70,12 @@ public class Secuencia {
             String archivo = "sagas.json";
             try (FileWriter escritor = new FileWriter(archivo)) {
                 gson.toJson(todosDocumentos, escritor);
-                System.out.println("JSON EXPORTADO: " + archivo);
+                System.out.println("Archivo Json creado: " + archivo);
             } catch (IOException e) {
-                System.err.println("ERROR AL ESCRIBIR ARCHIVO JSON: " + e.getMessage());
+                System.err.println("Error al crear el archivo Json: " + e.getMessage());
             }
         } else {
-            System.err.println("NO SE PUDIERON OBTENER DOCUMENTOS DE MONGOCHAMADOR");
+            System.err.println("No se obtuvieron los archivos");
         }
 
         // mongonatorService.borrarTodo();
@@ -83,7 +83,7 @@ public class Secuencia {
         if (idVentoAureo != null) {
             jojosGresService.deleteSaga(idVentoAureo);
         } else {
-            System.out.println("NO SE PUDO BORRAR VENTO AUREO ID DESCONOCIDO");
+            System.out.println("No se pudo borrar la saga 'Vento Aureo'");
         }
     }
 }

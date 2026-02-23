@@ -32,7 +32,7 @@ public class MongonatorService {
             HttpEntity<Saga> request = new HttpEntity<>(saga, headers);
             restTemplate.exchange(url, HttpMethod.POST, request, Saga.class);
         } catch (HttpClientErrorException e) {
-            System.err.println("EERRRROR AL GUARDAR SAGA MONGOCHAMDOR: " + e.getMessage());
+            System.err.println("Error al crear la saga (MONGOCHAMADOR): " + e.getMessage());
         }
     }
 
@@ -44,7 +44,7 @@ public class MongonatorService {
             HttpEntity<List<Saga>> request = new HttpEntity<>(sagas, headers);
             restTemplate.exchange(url, HttpMethod.POST, request, Void.class);
         } catch (HttpClientErrorException e) {
-            System.err.println("ERROR GUARDAR LOSJOJOS MONGOCHAMADORCH: " + e.getMessage());
+            System.err.println("Error al guardas Jojos (MONGOCHAMADOR): " + e.getMessage());
         }
     }
 
@@ -53,7 +53,7 @@ public class MongonatorService {
             String url = baseUrl + SAGAS_PATH;
             restTemplate.delete(url);
         } catch (HttpClientErrorException e) {
-            System.err.println("ERROR AL BORRAR EL MONGOCHAMDOR: " + e.getMessage());
+            System.err.println("Error al borrar (MONGOCHAMADOR): " + e.getMessage());
         }
     }
 
@@ -65,7 +65,7 @@ public class MongonatorService {
                     new ParameterizedTypeReference<List<Document>>() {});
             return response.getBody();
         } catch (HttpClientErrorException e) {
-            System.err.println("EERRROR AL OBTENER DOCUMENTOS: " + e.getMessage());
+            System.err.println("Error al obtener documentos (MONGOCHAMADOR): " + e.getMessage());
             return null;
         }
     }

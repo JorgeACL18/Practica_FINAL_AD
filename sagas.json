@@ -1,5 +1,249 @@
 [
   {
+    "_id": {
+      "timestamp": 1771867348,
+      "date": "2026-02-23T17:22:28.000+00:00"
+    },
+    "titulo": "Battle Tendency",
+    "parte": 2,
+    "anoinicio": 1938,
+    "ambientacion": "Europa e América",
+    "personaxes": [
+      {
+        "nome": "Joseph Joestar"
+      },
+      {
+        "nome": "Caesar Anthonio Zeppeli"
+      },
+      {
+        "nome": "Lisa Lisa"
+      },
+      {
+        "nome": "Rudol von Stroheim"
+      },
+      {
+        "nome": "Kars"
+      },
+      {
+        "nome": "Esidisi"
+      },
+      {
+        "nome": "Wamuu"
+      }
+    ],
+    "_class": "org.example.model.Saga"
+  },
+  {
+    "_id": {
+      "timestamp": 1771867348,
+      "date": "2026-02-23T17:22:28.000+00:00"
+    },
+    "titulo": "Stardust Crusaders",
+    "parte": 3,
+    "anoinicio": 1988,
+    "ambientacion": "Exipto",
+    "personaxes": [
+      {
+        "nome": "Jotaro Kujo",
+        "stand": "Star Platinum"
+      },
+      {
+        "nome": "Joseph Joestar",
+        "stand": "Hermit Purple"
+      },
+      {
+        "nome": "Muhammad Avdol",
+        "stand": "Magicians Red"
+      },
+      {
+        "nome": "Noriaki Kakyoin",
+        "stand": "Hierophant Green"
+      },
+      {
+        "nome": "Jean Pierre Polnareff",
+        "stand": "Silver Chariot"
+      },
+      {
+        "nome": "Iggy",
+        "stand": "The Fool"
+      },
+      {
+        "nome": "Dio Brando",
+        "stand": "The World"
+      }
+    ],
+    "_class": "org.example.model.Saga"
+  },
+  {
+    "_id": {
+      "timestamp": 1771867348,
+      "date": "2026-02-23T17:22:28.000+00:00"
+    },
+    "titulo": "Phantom Blood",
+    "parte": 1,
+    "anoinicio": 1880,
+    "ambientacion": "Inglaterra",
+    "personaxes": [
+      {
+        "nome": "Jonathan Joestar"
+      },
+      {
+        "nome": "Dio Brando"
+      },
+      {
+        "nome": "Will A. Zeppeli"
+      },
+      {
+        "nome": "Robert E. O. Speedwagon"
+      },
+      {
+        "nome": "Erina Pendleton"
+      }
+    ],
+    "_class": "org.example.model.Saga"
+  },
+  {
+    "_id": {
+      "timestamp": 1771867348,
+      "date": "2026-02-23T17:22:28.000+00:00"
+    },
+    "titulo": "Battle Tendency",
+    "parte": 2,
+    "anoinicio": 1938,
+    "ambientacion": "Europa e América",
+    "personaxes": [
+      {
+        "nome": "Joseph Joestar"
+      },
+      {
+        "nome": "Caesar Anthonio Zeppeli"
+      },
+      {
+        "nome": "Lisa Lisa"
+      },
+      {
+        "nome": "Rudol von Stroheim"
+      },
+      {
+        "nome": "Kars"
+      },
+      {
+        "nome": "Esidisi"
+      },
+      {
+        "nome": "Wamuu"
+      }
+    ],
+    "_class": "org.example.model.Saga"
+  },
+  {
+    "_id": {
+      "timestamp": 1771867348,
+      "date": "2026-02-23T17:22:28.000+00:00"
+    },
+    "titulo": "Stardust Crusaders",
+    "parte": 3,
+    "anoinicio": 1988,
+    "ambientacion": "Exipto",
+    "personaxes": [
+      {
+        "nome": "Jotaro Kujo",
+        "stand": "Star Platinum"
+      },
+      {
+        "nome": "Joseph Joestar",
+        "stand": "Hermit Purple"
+      },
+      {
+        "nome": "Muhammad Avdol",
+        "stand": "Magicians Red"
+      },
+      {
+        "nome": "Noriaki Kakyoin",
+        "stand": "Hierophant Green"
+      },
+      {
+        "nome": "Jean Pierre Polnareff",
+        "stand": "Silver Chariot"
+      },
+      {
+        "nome": "Iggy",
+        "stand": "The Fool"
+      },
+      {
+        "nome": "Dio Brando",
+        "stand": "The World"
+      }
+    ],
+    "_class": "org.example.model.Saga"
+  },
+  {
+    "_id": {
+      "timestamp": 1771867348,
+      "date": "2026-02-23T17:22:28.000+00:00"
+    },
+    "titulo": "Diamond is Unbreakable",
+    "parte": 4,
+    "anoinicio": 1999,
+    "ambientacion": "Morioh, Xapón",
+    "personaxes": [
+      {
+        "nome": "Josuke Higashikata",
+        "stand": "Crazy Diamond"
+      },
+      {
+        "nome": "Jotaro Kujo",
+        "stand": "Star Platinum"
+      },
+      {
+        "nome": "Okuyasu Nijimura",
+        "stand": "The Hand"
+      },
+      {
+        "nome": "Koichi Hirose",
+        "stand": "Echoes"
+      },
+      {
+        "nome": "Rohan Kishibe",
+        "stand": "Heavens Door"
+      },
+      {
+        "nome": "Yoshikage Kira",
+        "stand": "Killer Queen"
+      },
+      {
+        "nome": "Shigekiyo Yangu",
+        "stand": "Aerosmith"
+      }
+    ],
+    "_class": "org.example.model.Saga"
+  },
+  {
+    "_id": {
+      "timestamp": 1771867348,
+      "date": "2026-02-23T17:22:28.000+00:00"
+    },
+    "titulo": "Vento Aureo",
+    "parte": 5,
+    "anoinicio": 2001,
+    "ambientacion": "Italia",
+    "personaxes": [
+      {
+        "nome": "Giorno Giovanna",
+        "stand": "Gold Experience"
+      },
+      {
+        "nome": "Bruno Bucciarati",
+        "stand": "Sticky Fingers"
+      },
+      {
+        "nome": "Guido Mista",
+        "stand": "Sex Pistols"
+      }
+    ],
+    "_class": "org.example.model.Saga"
+  },
+  {
     "_id": "Jojos",
     "sagas": [
       {
@@ -150,390 +394,8 @@
             "stand": "Sex Pistols"
           }
         ]
-      },
-      {
-        "_id": "6",
-        "titulo": "Vento Aureo",
-        "parte": 5,
-        "anoinicio": 2001,
-        "ambientacion": "Italia",
-        "personaxes": [
-          {
-            "nome": "Giorno Giovanna",
-            "stand": "Gold Experience"
-          },
-          {
-            "nome": "Bruno Bucciarati",
-            "stand": "Sticky Fingers"
-          },
-          {
-            "nome": "Guido Mista",
-            "stand": "Sex Pistols"
-          }
-        ]
-      },
-      {
-        "_id": "7",
-        "titulo": "Vento Aureo",
-        "parte": 5,
-        "anoinicio": 2001,
-        "ambientacion": "Italia",
-        "personaxes": [
-          {
-            "nome": "Giorno Giovanna",
-            "stand": "Gold Experience"
-          },
-          {
-            "nome": "Bruno Bucciarati",
-            "stand": "Sticky Fingers"
-          },
-          {
-            "nome": "Guido Mista",
-            "stand": "Sex Pistols"
-          }
-        ]
-      },
-      {
-        "_id": "8",
-        "titulo": "Vento Aureo",
-        "parte": 5,
-        "anoinicio": 2001,
-        "ambientacion": "Italia",
-        "personaxes": [
-          {
-            "nome": "Giorno Giovanna",
-            "stand": "Gold Experience"
-          },
-          {
-            "nome": "Bruno Bucciarati",
-            "stand": "Sticky Fingers"
-          },
-          {
-            "nome": "Guido Mista",
-            "stand": "Sex Pistols"
-          }
-        ]
       }
     ],
     "_class": "org.example.model.Jojos"
-  },
-  {
-    "_id": {
-      "timestamp": 1771853406,
-      "date": "2026-02-23T13:30:06.000+00:00"
-    },
-    "titulo": "Battle Tendency",
-    "parte": 2,
-    "anoinicio": 1938,
-    "ambientacion": "Europa e América",
-    "personaxes": [
-      {
-        "nome": "Joseph Joestar"
-      },
-      {
-        "nome": "Caesar Anthonio Zeppeli"
-      },
-      {
-        "nome": "Lisa Lisa"
-      },
-      {
-        "nome": "Rudol von Stroheim"
-      },
-      {
-        "nome": "Kars"
-      },
-      {
-        "nome": "Esidisi"
-      },
-      {
-        "nome": "Wamuu"
-      }
-    ],
-    "_class": "org.example.model.Saga"
-  },
-  {
-    "_id": {
-      "timestamp": 1771853406,
-      "date": "2026-02-23T13:30:06.000+00:00"
-    },
-    "titulo": "Stardust Crusaders",
-    "parte": 3,
-    "anoinicio": 1988,
-    "ambientacion": "Exipto",
-    "personaxes": [
-      {
-        "nome": "Jotaro Kujo",
-        "stand": "Star Platinum"
-      },
-      {
-        "nome": "Joseph Joestar",
-        "stand": "Hermit Purple"
-      },
-      {
-        "nome": "Muhammad Avdol",
-        "stand": "Magicians Red"
-      },
-      {
-        "nome": "Noriaki Kakyoin",
-        "stand": "Hierophant Green"
-      },
-      {
-        "nome": "Jean Pierre Polnareff",
-        "stand": "Silver Chariot"
-      },
-      {
-        "nome": "Iggy",
-        "stand": "The Fool"
-      },
-      {
-        "nome": "Dio Brando",
-        "stand": "The World"
-      }
-    ],
-    "_class": "org.example.model.Saga"
-  },
-  {
-    "_id": {
-      "timestamp": 1771853406,
-      "date": "2026-02-23T13:30:06.000+00:00"
-    },
-    "titulo": "Phantom Blood",
-    "parte": 1,
-    "anoinicio": 1880,
-    "ambientacion": "Inglaterra",
-    "personaxes": [
-      {
-        "nome": "Jonathan Joestar"
-      },
-      {
-        "nome": "Dio Brando"
-      },
-      {
-        "nome": "Will A. Zeppeli"
-      },
-      {
-        "nome": "Robert E. O. Speedwagon"
-      },
-      {
-        "nome": "Erina Pendleton"
-      }
-    ],
-    "_class": "org.example.model.Saga"
-  },
-  {
-    "_id": {
-      "timestamp": 1771853406,
-      "date": "2026-02-23T13:30:06.000+00:00"
-    },
-    "titulo": "Battle Tendency",
-    "parte": 2,
-    "anoinicio": 1938,
-    "ambientacion": "Europa e América",
-    "personaxes": [
-      {
-        "nome": "Joseph Joestar"
-      },
-      {
-        "nome": "Caesar Anthonio Zeppeli"
-      },
-      {
-        "nome": "Lisa Lisa"
-      },
-      {
-        "nome": "Rudol von Stroheim"
-      },
-      {
-        "nome": "Kars"
-      },
-      {
-        "nome": "Esidisi"
-      },
-      {
-        "nome": "Wamuu"
-      }
-    ],
-    "_class": "org.example.model.Saga"
-  },
-  {
-    "_id": {
-      "timestamp": 1771853406,
-      "date": "2026-02-23T13:30:06.000+00:00"
-    },
-    "titulo": "Stardust Crusaders",
-    "parte": 3,
-    "anoinicio": 1988,
-    "ambientacion": "Exipto",
-    "personaxes": [
-      {
-        "nome": "Jotaro Kujo",
-        "stand": "Star Platinum"
-      },
-      {
-        "nome": "Joseph Joestar",
-        "stand": "Hermit Purple"
-      },
-      {
-        "nome": "Muhammad Avdol",
-        "stand": "Magicians Red"
-      },
-      {
-        "nome": "Noriaki Kakyoin",
-        "stand": "Hierophant Green"
-      },
-      {
-        "nome": "Jean Pierre Polnareff",
-        "stand": "Silver Chariot"
-      },
-      {
-        "nome": "Iggy",
-        "stand": "The Fool"
-      },
-      {
-        "nome": "Dio Brando",
-        "stand": "The World"
-      }
-    ],
-    "_class": "org.example.model.Saga"
-  },
-  {
-    "_id": {
-      "timestamp": 1771853406,
-      "date": "2026-02-23T13:30:06.000+00:00"
-    },
-    "titulo": "Diamond is Unbreakable",
-    "parte": 4,
-    "anoinicio": 1999,
-    "ambientacion": "Morioh, Xapón",
-    "personaxes": [
-      {
-        "nome": "Josuke Higashikata",
-        "stand": "Crazy Diamond"
-      },
-      {
-        "nome": "Jotaro Kujo",
-        "stand": "Star Platinum"
-      },
-      {
-        "nome": "Okuyasu Nijimura",
-        "stand": "The Hand"
-      },
-      {
-        "nome": "Koichi Hirose",
-        "stand": "Echoes"
-      },
-      {
-        "nome": "Rohan Kishibe",
-        "stand": "Heavens Door"
-      },
-      {
-        "nome": "Yoshikage Kira",
-        "stand": "Killer Queen"
-      },
-      {
-        "nome": "Shigekiyo Yangu",
-        "stand": "Aerosmith"
-      }
-    ],
-    "_class": "org.example.model.Saga"
-  },
-  {
-    "_id": {
-      "timestamp": 1771853406,
-      "date": "2026-02-23T13:30:06.000+00:00"
-    },
-    "titulo": "Vento Aureo",
-    "parte": 5,
-    "anoinicio": 2001,
-    "ambientacion": "Italia",
-    "personaxes": [
-      {
-        "nome": "Giorno Giovanna",
-        "stand": "Gold Experience"
-      },
-      {
-        "nome": "Bruno Bucciarati",
-        "stand": "Sticky Fingers"
-      },
-      {
-        "nome": "Guido Mista",
-        "stand": "Sex Pistols"
-      }
-    ],
-    "_class": "org.example.model.Saga"
-  },
-  {
-    "_id": {
-      "timestamp": 1771853406,
-      "date": "2026-02-23T13:30:06.000+00:00"
-    },
-    "titulo": "Vento Aureo",
-    "parte": 5,
-    "anoinicio": 2001,
-    "ambientacion": "Italia",
-    "personaxes": [
-      {
-        "nome": "Giorno Giovanna",
-        "stand": "Gold Experience"
-      },
-      {
-        "nome": "Bruno Bucciarati",
-        "stand": "Sticky Fingers"
-      },
-      {
-        "nome": "Guido Mista",
-        "stand": "Sex Pistols"
-      }
-    ],
-    "_class": "org.example.model.Saga"
-  },
-  {
-    "_id": {
-      "timestamp": 1771853406,
-      "date": "2026-02-23T13:30:06.000+00:00"
-    },
-    "titulo": "Vento Aureo",
-    "parte": 5,
-    "anoinicio": 2001,
-    "ambientacion": "Italia",
-    "personaxes": [
-      {
-        "nome": "Giorno Giovanna",
-        "stand": "Gold Experience"
-      },
-      {
-        "nome": "Bruno Bucciarati",
-        "stand": "Sticky Fingers"
-      },
-      {
-        "nome": "Guido Mista",
-        "stand": "Sex Pistols"
-      }
-    ],
-    "_class": "org.example.model.Saga"
-  },
-  {
-    "_id": {
-      "timestamp": 1771853406,
-      "date": "2026-02-23T13:30:06.000+00:00"
-    },
-    "titulo": "Vento Aureo",
-    "parte": 5,
-    "anoinicio": 2001,
-    "ambientacion": "Italia",
-    "personaxes": [
-      {
-        "nome": "Giorno Giovanna",
-        "stand": "Gold Experience"
-      },
-      {
-        "nome": "Bruno Bucciarati",
-        "stand": "Sticky Fingers"
-      },
-      {
-        "nome": "Guido Mista",
-        "stand": "Sex Pistols"
-      }
-    ],
-    "_class": "org.example.model.Saga"
   }
 ]
