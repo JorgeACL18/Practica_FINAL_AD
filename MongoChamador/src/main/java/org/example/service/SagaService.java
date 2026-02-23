@@ -31,7 +31,7 @@ public class SagaService {
         return sagaRepo.findById(id).orElse(null);
     }
 
-    public Jojos guardarJojos (List<Jojos> saga) {
+    public Jojos guardarJojos (List<Saga> saga) {
         Jojos jojos = new Jojos();
         jojos.setId("Jojos");
         jojos.setSaga(saga);
@@ -39,7 +39,7 @@ public class SagaService {
     }
 
     public Jojos obtenerJojos() {
-        return mongoTemplate.findById("Jojos", Jojos.class, "saga");
+        return mongoTemplate.findById("Jojos", Jojos.class, "sagas");
     }
 
     public void borrarTodo() {
@@ -47,6 +47,6 @@ public class SagaService {
     }
 
     public List<Document> obtenerTodosDocumento() {
-        return mongoTemplate.findAll(Document.class, "saga");
+        return mongoTemplate.findAll(Document.class, "sagas");
     }
 }

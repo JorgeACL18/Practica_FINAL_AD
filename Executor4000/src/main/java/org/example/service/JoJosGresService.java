@@ -40,7 +40,7 @@ public class JoJosGresService {
 
     public Saga getSagaById(Long id) {
         try {
-            String url = baseUrl + SAGAS_PATH + " - " + id;
+            String url = baseUrl + SAGAS_PATH + "/" + id;
             ResponseEntity<Saga> response = restTemplate.exchange(
                     url, HttpMethod.GET, null, Saga.class);
             return response.getBody();
@@ -52,7 +52,7 @@ public class JoJosGresService {
 
     public List<Saga> getSagaByTitulo(String titulo) {
         try {
-            String url = baseUrl + SAGAS_PATH + "- titulo -" + titulo;
+            String url = baseUrl + SAGAS_PATH + "/titulo/" + titulo;
             ResponseEntity<List<Saga>> response = restTemplate.exchange(
                     url, HttpMethod.GET, null,
                     new ParameterizedTypeReference<List<Saga>>() {});
@@ -78,7 +78,7 @@ public class JoJosGresService {
 
     public void deleteSaga(Long id) {
         try {
-            String url = baseUrl + SAGAS_PATH + " - " + id;
+            String url = baseUrl + SAGAS_PATH + "/" + id;
             restTemplate.delete(url);
         } catch (HttpClientErrorException e) {
             System.err.println("ERROR AL BORRAR SAGA: " + e.getMessage());

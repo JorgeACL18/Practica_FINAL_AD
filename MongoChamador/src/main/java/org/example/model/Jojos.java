@@ -8,12 +8,21 @@ import java.util.List;
 public class Jojos {
     @Id
     private String id;
-    private List<Saga> saga;
+    private List<Saga> sagas;
 
-    public Jojos() {}
+    public String getId() {
+        return id;
+    }
 
-    public String getId() { return id; }
-    public void setId(String id) { this.id = id; }
-    public List<Saga> getSaga() { return saga; }
-    public void setSaga(List<Jojos> saga) { this.saga = saga; }
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public List<Saga> getSaga() {
+        return sagas;
+    }
+
+    public void setSaga(List<Saga> sagas) {
+        this.sagas = sagas;
+    }
 }

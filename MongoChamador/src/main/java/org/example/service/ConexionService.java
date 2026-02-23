@@ -17,7 +17,7 @@ public class ConexionService {
     @Autowired
     private RestTemplate restTemplate;
 
-    private static final String URL = "http://localhost:8081/postgres/sagas";
+    private static final String URL = "http://localhost:8080/postgres/sagas";
 
     public List<Saga> getSagaTitulo(String titulo) {
         try {

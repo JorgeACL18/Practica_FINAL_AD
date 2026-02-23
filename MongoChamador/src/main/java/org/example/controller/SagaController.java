@@ -16,25 +16,25 @@ public class SagaController {
     @Autowired
     private SagaService sagaService;
 
-    @PostMapping("/saga")
+    @PostMapping("/sagas")
     public ResponseEntity<Saga> guardarSaga(@RequestBody Saga saga) {
         Saga guardada = sagaService.guardarSaga(saga);
         return ResponseEntity.ok(guardada);
     }
 
-    @GetMapping("/saga")
+    @GetMapping("/sagas")
     public ResponseEntity<List<Saga>> listarSagas() {
         return ResponseEntity.ok(sagaService.listarSaga());
     }
 
-    @GetMapping("/saga/{id}")
+    @GetMapping("/sagas/{id}")
     public ResponseEntity<Saga> obtenerSaga(@PathVariable String id) {
         Saga saga = sagaService.obtenerSagaId(id);
         return saga != null ? ResponseEntity.ok(saga) : ResponseEntity.notFound().build();
     }
 
     @PostMapping("/jojos")
-    public ResponseEntity<Jojos> guardarJojos(@RequestBody List<Jojos> saga) {
+    public ResponseEntity<Jojos> guardarJojos(@RequestBody List<Saga> saga) {
         Jojos jojos = sagaService.guardarJojos(saga);
         return ResponseEntity.ok(jojos);
     }
@@ -45,7 +45,7 @@ public class SagaController {
         return jojos != null ? ResponseEntity.ok(jojos) : ResponseEntity.notFound().build();
     }
 
-    @DeleteMapping("/saga")
+    @DeleteMapping("/sagas")
     public ResponseEntity<Void> borrarTodo() {
         sagaService.borrarTodo();
         return ResponseEntity.noContent().build();
